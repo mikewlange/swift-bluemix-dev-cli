@@ -36,7 +36,13 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
 
  Once completed, you should see "The project, ... has been saved into the current directory."
  
- 7. Install the node packages:
+7. Change into the directory of your project
+
+ ```
+ cd MyReact
+ ```
+ 
+8. Install the node packages:
 
  ```npm install```
  
