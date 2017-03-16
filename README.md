@@ -66,13 +66,13 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
 
   It's time to run your application.
   
-    ```
-    .build/debug/MyReact
-    ```
+  ```
+  .build/debug/MyReact
+  ```
     
-    You will probably be getting a message about accepting incoming connections if you're on macOS. Select 'Allow'. Notice that at the end of the run, the logger says that the server is running on port 8080.
+  You will probably be getting a message about accepting incoming connections if you're on macOS. Select 'Allow'. Notice that at the end of the run, the logger says that the server is running on port 8080.
     
-    ![Accept incoming](images/accept-incoming.png)
+  ![Accept incoming](images/accept-incoming.png)
     
 
 11. Open your browser and see your running application.
@@ -88,6 +88,34 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
   - VSCode, Atom, and Sublime are all good choices, too.
 
   ![View code](images/view-code.png)
+  
+2. Make changes, for instance:
+
+  ```javascript
+  import React from 'react';
+  import {render} from 'react-dom';
+
+  // load stylesheet
+  require("../sass/default.scss");
+
+  class App extends React.Component {
+    render () {
+        return (
+            <section>
+                <p>Hello, World!</p>
+            </section>
+        );
+    }
+  }
+
+  render(<App/>, document.getElementById('app'));
+  ```
+  
+3. Re-run `gulp`
+
+4. Refresh your browser
+
+  ![View code](images/helloworld.png)
   
         
 
