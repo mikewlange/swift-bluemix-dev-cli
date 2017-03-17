@@ -5,8 +5,8 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
 ## Prerequisites:
 
 - [XCode 8.2+](https://developer.apple.com/download/)
-- [Download and install the Bluemix plugin](https://plugins.ng.bluemix.net/ui/home.html)
-- Download and install the Developer plugin:
+- [Download and install the Bluemix CLI](https://plugins.ng.bluemix.net/ui/home.html)
+- Download and install the Developer plugin for the Bluemix CLI:
    ```
    bx plugin install dev -r Bluemix
    ```
