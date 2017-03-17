@@ -50,7 +50,7 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
 9. Build the Swift project (takes 2 minutes)
 
     ```
-    swift build
+    swift build -Xlinker -lc++
     ```
     
     When you run this command, the Swift Package Manager will download all of the dependencies your project needs into your `Packages` directory. Downloading the packages on your first compile, can take a bit of time. Future builds will be very fast, however.
