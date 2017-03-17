@@ -39,19 +39,13 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
  cd MyReact
  ```
  
-8. Install the node packages:
+8. Install the node packages and run gulp:
 
  ```npm install```
  
   ![Install node dependencies](images/install-node-deps.png)
- 
-8. Run gulp:
-
-    ```
-    gulp
-    ```
     
-    ![Run gulp](images/run-gulp.png)
+  ![Run gulp](images/run-gulp.png)
     
 9. Build the Swift project (takes 2 minutes)
 
@@ -114,7 +108,7 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
   render(<App/>, document.getElementById('app'));
   ```
   
-3. Re-run `gulp`
+3. Re-run `npm install`
 
 4. Refresh your browser
 
