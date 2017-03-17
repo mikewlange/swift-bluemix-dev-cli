@@ -27,7 +27,7 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
 
  ![Scaffold-Step2](images/scaffold-step2.png)
  
-6. Wait for your project to be generated (should take about 2 minutes)
+6. Wait for your project to be generated (should take about 30 seconds)
 
  ![Scaffold-Step3](images/scaffold-step3.png)
 
