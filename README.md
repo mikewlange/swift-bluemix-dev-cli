@@ -23,7 +23,7 @@ Learn to scaffold out a complete web application that uses a Kitura server to se
  
  ![Scaffold-Step1](images/scaffold-step1.png)
  
-5. Name your project, give it a hostname, and select no services
+5. Name your project, give it a hostname (needs to be unique), and select no services
 
  ![Scaffold-Step2](images/scaffold-step2.png)
  
